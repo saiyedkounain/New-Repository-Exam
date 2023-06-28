@@ -15,6 +15,7 @@ class Bullet extends Bike{
 class abstractDemo{
     public static void main(String[] args) {
         Bike K = new KTM();
+        System.out.println("Changes");
         Bike B = new Bullet();
         K.run();
         K.changeGear();
