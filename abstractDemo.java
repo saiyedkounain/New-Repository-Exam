@@ -1,4 +1,4 @@
-
+import javax.sound.midi.Sequencer.SyncMode;
 
 abstract class Bike{
     Bike(){ System.out.println("Bike is created!");}
@@ -16,6 +16,7 @@ class abstractDemo{
     public static void main(String[] args) {
         Bike K = new KTM();
         System.out.println("Changes");
+        System.out.println("New change");
         Bike B = new Bullet();
         K.run();
         K.changeGear();
